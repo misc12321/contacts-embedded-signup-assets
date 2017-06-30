@@ -352,6 +352,7 @@ function main($) {
           $('.ctct-embed-signup form').hide();
           $('.success_message').removeClass('u-hide');
           $('.success_message').show();
+          $("input[type=text], textarea").val("")
         }
         /* Otherwise, redirect the browser to the specified redirect */
         else
