@@ -350,8 +350,8 @@ function main($) {
           $('.ctct-embed-signup h2').hide();
           $('.ctct-embed-signup button').hide();
           $('.ctct-embed-signup form').hide();
-          $('#success_message').removeClass('u-hide');
-          $('#success_message').show();
+          $('.success_message').removeClass('u-hide');
+          $('.success_message').show();
         }
         /* Otherwise, redirect the browser to the specified redirect */
         else
